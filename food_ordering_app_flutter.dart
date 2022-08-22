@@ -266,9 +266,8 @@ class FirstRoute extends StatelessWidget {
                               children:<Widget>[
                                 Image(
                                   image: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6GUuFZ8UxjexCA6TQWGr2blh_bwFb5ZcU3g&usqp=CAU"),
-
-                                  height:130,
-                                  width:190,
+                                  height:MediaQuery.of(context).size.height * 0.15,
+                                  width: MediaQuery.of(context).size.width/3.5,
                                 ),
 
                                 Text("Burger with fries",
@@ -313,8 +312,8 @@ class FirstRoute extends StatelessWidget {
 
                                   Image(
                                     image: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk_rh1o7C-N9z3NXFkcxejGxt9lqoLoEPoDQ&usqp=CAU"),
-                                    height:130,
-                                    width:140,
+                                    height:MediaQuery.of(context).size.height * 0.15,
+                                    width: MediaQuery.of(context).size.width/3.5,
                                   ),
 
                                   Text("Only Burger",
@@ -364,9 +363,8 @@ class FirstRoute extends StatelessWidget {
                               children:<Widget>[
                                 Image(
                                   image: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKNucAgWDnKLJ0uypdFY8mGurBY5JRFtmYqta894FIg59-YBE7UF-dYYSUfUbHmFUATvE&usqp=CAU"),
-
-                                  height:120,
-                                  width:190,
+                                  height:MediaQuery.of(context).size.height * 0.15,
+                                  width: MediaQuery.of(context).size.width/3.5,
                                 ),
 
                                 Text("3 large Burger \n",
@@ -413,8 +411,8 @@ class FirstRoute extends StatelessWidget {
 
                                   Image(
                                     image: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrsZjOkJ606YWOev7onac9VKRMgcQmJrCDpLQryBZFR462yAvr6qkPb4_pLQVs3yJMQcM&usqp=CAU"),
-                                    height:120,
-                                    width:140,
+                                    height:MediaQuery.of(context).size.height * 0.15,
+                                    width: MediaQuery.of(context).size.width/3.5,
                                   ),
 
                                   Text("Burger with \n Coke & Fries",
